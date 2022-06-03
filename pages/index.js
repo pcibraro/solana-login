@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 import React, { useState, useEffect } from 'react';
-import { signIn, signOut, useSession } from 'next-auth/client';
+import { signIn, signOut, useSession } from 'next-auth/react';
 
 export default function Home() {
   const [phantom, setPhantom] = useState();
